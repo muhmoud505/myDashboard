@@ -142,7 +142,7 @@ export default function Register() {
                       type="button"
                       className="inline-flex w-full items-center justify-center bg-gray-200 dark:bg-gray-700 px-6 py-4 text-lg
                       text-gray-900 dark:text-white transition-all duration-200 ease-in-out focus:shadow font-medium uppercase tracking-wide"
-                      onClick={() => router.push('/login')}
+                      onClick={() => router.push('/')}
                     >
                       Login
                     </button>
