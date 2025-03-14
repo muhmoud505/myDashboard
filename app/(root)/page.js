@@ -61,7 +61,7 @@ export default function Register() {
       if (data.success) {
        dispatch({type:'SET_USER',payload:data.data.user});
        dispatch({type:'IS_AUTH_USER',payload:true});
-       router.redirect('/dashboard');
+       router.push('/dashboard');
         
       } else {
         setError(data.message || 'Login failed');
