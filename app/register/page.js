@@ -64,6 +64,7 @@ export default function Register() {
   
       if (data.success) {
         setIsRegistered(true);
+        router.push('/')
       } else {
         setError(data.message || 'Registration failed');
       }
